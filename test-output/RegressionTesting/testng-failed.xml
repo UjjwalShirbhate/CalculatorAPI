@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RegressionTesting]">
+  <parameter name="RequestID" value="Regression1"/>
+  <test thread-count="5" name="AdditionTestCases(failed)">
+    <groups>
+      <run>
+        <include name="RegressionTesting"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Training.CalculatorAPI.AdditionTestCases">
+        <methods>
+          <include name="TestAdditionWithOnePositiveOneNegative"/>
+          <include name="TestAdditionWithPositiveNumbers"/>
+        </methods>
+      </class> <!-- Training.CalculatorAPI.AdditionTestCases -->
+    </classes>
+  </test> <!-- AdditionTestCases(failed) -->
+</suite> <!-- Failed suite [RegressionTesting] -->

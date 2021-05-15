@@ -1,0 +1,26 @@
+<suite name="TestingCalculatorAPI">
+<parameter name="RequestID" value="Req101"/>
+<test name="AdditionTestCases">
+<classes>
+<class name="Training.CalculatorAPI.AdditionTestCases"/>
+</classes>
+</test>
+
+<test name="TestingSubtractionTestCases">
+<classes>
+<class name="Training.CalculatorAPI.TestingSubtractionTestCases"/>
+</classes>
+</test>
+
+<test name="TestingMultiplicationTestCases">
+<classes>
+<class name="Training.CalculatorAPI.TestMultiplication"/>
+
+</classes>
+</test>
+<test name="TestingDivisionTestCases">
+<classes>
+<class name="Training.CalculatorAPI.TestDivisionFunctionality"/>
+</classes>
+</test>
+</suite>
