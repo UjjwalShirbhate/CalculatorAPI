@@ -25,7 +25,7 @@ public class AdditionTestCases {
 	
 	public void Init()
 	{
-		System.out.println("I am in Before class");
+		System.out.println("I am in Before class after 1st changed");
 		 Obj=new Calculator();
 	}
 	
