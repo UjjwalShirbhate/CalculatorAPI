@@ -13,11 +13,5 @@ public class CalculatorAPI {
 		
 		
 		}
-		
-		public int Subtraction(int a,int b)
-		{
-			int res1=a-b;
-			return res1;
-	}
-
+	
 }

@@ -17,7 +17,7 @@ public class AdditionTestCases {
 	@BeforeGroups("RegressionTesting")
 	public void InitGroup()
 	{
-	 System.out.println("I am in Before Group");
+	 System.out.println("I am in Before Group after Jenkins integrating");
 	 Obj=new Calculator();
 }
 	
